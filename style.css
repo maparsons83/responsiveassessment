@@ -1,0 +1,41 @@
+body {
+
+}
+@media (min-width:800px) {
+    body {
+        display:flex;
+    }
+
+    .bigbox {
+        flex: 33%;
+        max-width: 33%;
+
+    }
+
+    .pictures {
+        display: flex;
+    }
+}
+
+.bigbox {
+    width: 100vh;
+    background: lightyellow;
+    border: solid black;
+    margin-bottom: 5px;
+}
+
+.pictures {
+    width: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.pictures img {
+    flex: 45vh;
+    max-width: 45vh;
+    margin-right: 5vh;
+    margin-bottom: 5px;
+    
+    
+}
